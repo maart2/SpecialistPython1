@@ -5,7 +5,14 @@
 # Исходные данные:
 fruits = ["яблоко", "банан", "киви", "арбуз"]
 
-# TODO: your code here
+# TODO: your code herefruits = ["яблоко", "банан", "киви", "арбуз"]
+fruits[1] = " ""яблоко"
+fruits[2] = " "" ""киви"
+fruits[3] = " ""арбуз"
+i = 1
+for el in fruits:
+    print(i,".", el)
+    i += 1
 
 # Пример вывода:
 # 1. яблоко
